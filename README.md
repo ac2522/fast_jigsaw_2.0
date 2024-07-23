@@ -68,7 +68,7 @@ in all cases, <b>C = O(N)</b></br>
 Regular knobs are generated so that every knob is the same, every hole is the same. A randomly generated knob has the likelihood of becoming a regular knob puzzle with probability:
 <img src="https://github.com/ac2522/ac2522_images/blob/main/Random_duplicates.png" width="100">
 
-| Operations \ Algorithms       | hj2choi Ver. | Square edges | Regular knobs | Random knobs |
+| Operations \ Algorithms       | hj2choi Ver. | Square edges | Regular or Error knobs | Random knobs |
 |:------------------------------| :---: | :---: | :---: | :---: |
 | <i>Load images</i>            | O(32NP<sup>2</sup>) | O(4NP<sup>2</sup>) | O(4NP<sup>2</sup>) * | O(4NP<sup>2</sup>) * |
 | Calculate contours            | - | O(4N &middot; <i>log</i>(P)) | O(4NP &middot; <i>log</i>(P)) | O(4NP &middot; <i>log</i>(P)) |
